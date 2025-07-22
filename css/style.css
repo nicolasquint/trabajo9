@@ -19,10 +19,16 @@
 }
 
 .botones {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1px;
-  margin-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  margin-top: 10px;
+}
+
+.botones button {
+  flex: 1 1 23%; 
+  font-size: 18px;
+  box-sizing: border-box;
 }
 
 button {
